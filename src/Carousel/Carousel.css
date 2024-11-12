@@ -1,0 +1,75 @@
+.house{
+    width: 280px;
+    height: 322px;
+    border-radius: 24px;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+}
+.housename{
+color: #0E1735;
+font-size: 18px;
+font-weight: 500;
+}
+.houseprice{
+    color: #3C4563;
+font-size: 18px;
+font-weight: 500;
+}
+.arrow{
+    background-color: #10B981;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 32px;
+}
+.arrowcontainer{
+    display: flex;
+    gap: 4px;
+}
+.featuredHouses{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 120px;
+}
+.carouselTrack{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    transition: 1s ease;
+}
+
+
+
+@media all and (max-width:1024px){
+    .house{
+        width: 200px;
+        height: 242px;
+    }
+    .housename{
+    font-size: 14px;
+    }
+    .houseprice{
+    font-size: 14px;
+    }
+    .arrow{
+        padding: 8px 12px;
+    }
+    .featuredHouses{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    .carouselTrack{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    }
+

@@ -1,0 +1,93 @@
+.logoWText{
+    display: flex;
+    gap: 12px;
+}
+.companyName{
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: 4;
+    padding-top: 55px;
+
+}
+.btnContainer{
+    display: flex;
+    gap: 24px;
+    z-index: 2;
+}
+.btn{
+    padding: 8px 16px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 16px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    }
+    .Green{
+        background-color: #D1FAE5;
+        border: none;
+        color: #047857;
+        margin-left: 56px;
+    }
+    .vectorContainer{
+        position: absolute;
+        z-index: -1;
+        width: 681px;
+        height: 463px;
+    }
+
+    @media all and (max-width:1024px){
+        .header{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 30px;
+        }
+        .btnContainer{
+            gap: 10px;
+        }
+        .Green{
+            margin-left: 10px;
+        }
+        .btn{
+            padding: 6px 14px;
+            font-size: 12px;
+            border-radius: 12px;
+            }
+            .vector{
+                width: 500px;
+            }
+    }
+
+    @media all and (max-width:430px){
+        .btnContainer{
+            flex-direction: column;
+        }
+        .vector{
+            width: 320px;
+        }
+
+        .btn{
+            color: green;
+            font-weight: 600;
+            background-color:white;
+            }
+            .Green{
+                background-color: #D1FAE5;
+                border: none;
+                color: #047857;
+                margin-left: 0px;
+            }
+            .vectorContainer{
+                width: 200px;
+                height: 200px;
+            }
+    }

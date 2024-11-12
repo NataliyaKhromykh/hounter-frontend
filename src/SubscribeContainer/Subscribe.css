@@ -1,0 +1,133 @@
+.subscribeContainer{
+    background: linear-gradient(120deg, #A3C1F8, #F2FBF9, #E5E8FA);
+    border-radius: 32px;
+    height: 500px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    position: relative;
+}
+.subH1{
+    color: #1B1C57;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px; 
+    padding-top: 50px;
+}
+
+.sub1{
+    width: 70px;
+    position: absolute;
+    margin-left: -430px;
+    
+}
+.sub3{
+    width: 60px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.sub5{
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 50px;
+}
+.sub6{
+    position: absolute;
+    margin-left: -430px;
+    margin-top: 180px;
+}
+.sub7{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 100px;
+}
+.sub8{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 190px;
+}
+.stripeContainer {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (max-width:1024px){
+    .subscribeContainer{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .subH1{
+        font-size: 26px;
+        line-height: 48px; 
+        padding-top: 30px;
+    }
+    .sub1{
+        width: 50px;
+        margin-left: -300px;
+    }
+    .sub3{
+        width: 50px;
+        margin-left: 260px;
+        margin-top: 20px;
+    }
+    
+    .sub5{
+        margin-left: -290px;
+        margin-top: 60px;
+    }
+    .sub6{
+        margin-left: -340px;
+        margin-top: 130px;
+    }
+    .sub7{
+        margin-left: 180px;
+        margin-top: 60px;
+    }
+    .sub8{
+        margin-left: 230px;
+        margin-top: 130px;
+    }
+    .stripeContainer {
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media all and (max-width:450px){
+
+    .sub1{
+        display: none;
+    }
+    .sub3{
+        display: none;
+    }
+    .sub5{
+        display: none;
+    }
+    .sub6{
+        display: none;
+    }
+    .sub7{
+        display: none;
+    }
+    .sub8{
+    display: none;
+    }
+    .subH1{
+        font-size: 16px;
+        line-height: 28px; 
+        padding-top: 30px;
+    }
+    .subscribeContainer{
+        height: 400px;
+    }
+}
